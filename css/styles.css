@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+#logo {
+  padding-top: 1em;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+#main-menu {
+  padding: 12px 0px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#main-menu ul {
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+
+#main-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+#main-menu a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#main-title {
+  border-bottom: 2px solid black;
+}
+
+#main-title h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 4em;
+  margin: 2rem 0em;
+}
+
+#main-title h2 {
+  font-size: 2.5em;
+}
+
+.top-news {
+  float: left;
+  width: 70%;
+  margin-bottom: 2em;
+}
+
+.trending-topics {
+  float: left;
+  width: 30%;
+}
+
+.article-list-item {
+  display: flex;
+  padding: 1em 0em;
+  border-bottom: 1px solid black;
+}
+
+.article-list-item .preview-img a img {
+  transition: opacity 150ms ease;
+}
+
+.article-list-item .preview-img a:hover img {
+  opacity: 0.4;
+}
+
+.article-list-item .infos {
+  padding-left: 1em;
+}
+
+.article-list-item .infos .title {
+  font-size: x-large;
+}
+
+.article-list-item .infos .btn a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0044aa;
+  color: #fff;
+  padding: 8px 15px;
+  margin-top: 8px;
+  transition: background-color 150ms ease-in-out;
+}
+
+.article-list-item .infos .btn a:hover {
+  background-color: black;
+}
+
+.trending-topics ul li {
+  margin-bottom: 1em;
+}
+
+#footer {
+  clear: both;
+  background-color: black;
+  color: #fff;
+  margin-top: 2em;
+  padding: 2em 0em;
+  text-align: center;
+}
+
+#newsletter-container {
+  font-family: "Roboto Slab", serif;
+  background-color: #0044aa;
+  margin: 2em 0em;
+  padding: 1.5em;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.newsletter-title {
+  font-size: 2em;
+}
+
+#newsletter-form input[type="email"] {
+  outline: none;
+  width: 50%;
+  padding: 0.5em;
+  font-size: 1.2rem;
+}
+
+#newsletter-form button {
+  display: block;
+  margin-top: 1em;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: none;
+  background-color: #1f1f1f;
+  color: #fff;
+  transition: all 150ms ease-in-out;
+}
+
+#newsletter-form button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 2px solid black;
+  color: black;
+  text-transform: uppercase;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-link:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-back-container {
+  margin: 1em 0em;
+}
+
+.article-detail .title {
+  font-family: "Roboto Slab", serif;
+}
+
+#contact-form > div {
+  margin-bottom: 2em;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+#contact-form input[type="text"],
+#contact-form textarea {
+  outline: none;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1.2rem;
+}
+
+#contact-form input[type="submit"] {
+  padding: 14px 20px;
+  color: black;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.2rem;
+  background-color: #0044aa;
+  color: #fff;
+}
+
+#contact-form input[type="submit"]:hover {
+  cursor: pointer;
+}
